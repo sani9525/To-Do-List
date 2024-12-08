@@ -1,6 +1,6 @@
-# ListFlow
+# To-Do-List
 
-ListFlow is a simple web application for creating and managing to-do lists. It allows users to create tasks with titles and descriptions, update existing tasks, and delete tasks. ListFlow provides a user-friendly interface for organizing tasks and staying productive.
+To-Do-List is a simple web application for creating and managing to-do lists. It allows users to create tasks with titles and descriptions, update existing tasks, and delete tasks. To-Do-List provides a user-friendly interface for organizing tasks and staying productive.
 
 ## Features
 
@@ -21,10 +21,10 @@ ListFlow is a simple web application for creating and managing to-do lists. It a
 
 - **Endpoint**: `/api/v1/register`
 - **Method**: `POST`
-- **Description**: Creates a new user account with the provided email, username, and password.
+- **Description**: Creates a new user account with the provided name, email, and password.
 - **Parameters**:
+-   - `name` (string): User's chosen name.
   - `email` (string): User's email address.
-  - `username` (string): User's chosen username.
   - `password` (string): User's chosen password.
 - **Response**:
   - `message` (string): Success message or error message if user already exists.
@@ -89,10 +89,10 @@ ListFlow is a simple web application for creating and managing to-do lists. It a
 ## Technologies Used
 
 - **Frontend**:
-  - React.js: For user interfaces.
+  - Next.js: For user interfaces.
   - React Router: For Routing in applications.
   - Bootstrap: For responsive design.
-  - React Icons: Icon library.
+  - Next Icons: Icon library.
   - Axios: For making requests to the backend.
 
 - **Backend**:
@@ -104,11 +104,11 @@ ListFlow is a simple web application for creating and managing to-do lists. It a
 
 ## Getting Started
 
-To run ListFlow locally, follow these steps:
+To run To-Do-List locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/PranabKumarSahoo/ListFlow.git
+    git clone https://github.com/sani9525/To-Do-List.git
 
 2. Navigate to the project directory:
     ```bash
@@ -130,12 +130,12 @@ To run ListFlow locally, follow these steps:
     ```bash
     npm run dev
 
-6. Open your browser and navigate to `http://localhost:3000` to access ListFlow.
+6. Open your browser and navigate to `http://localhost:3000` to access To-Do-List.
 
 ## Contact
 
-Feel free to reach out to kumarspranab19@gmail.com with any questions or feedback!!
+Feel free to reach out to sanikumar3600@gmail.com with any questions or feedback!!
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE). Feel free to contribute.
+This project is open-source and available. Feel free to contribute.
